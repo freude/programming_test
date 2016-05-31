@@ -9,35 +9,19 @@
 //
 
 #include <iostream>
+#include "data_structures.hpp"
 
-
-class Node{
-public:
-    Node(){next=0;};
-    Node(int info, Node* next=0) : next(next), info(info) {};
-    int info;
-    Node* next=0;
-};
-
-class LList{
-
-public:
-    LList(){};
-    ~LList(){};
-    void AddToHead(int a);
-    void AddToTail(int a);
-    int RemoveFromHead(void);
-    int RemoveFromTail(void);
-    int RemoveItem(int a);
-    bool IsInList(int a);
-    
-    Node* head, tail;
-};
 
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    LList a;
+    
+    std::cout << a.IsEmpty() << std::endl;
+    a.AddToHead(10);
+    std::cout << a.IsEmpty()  << std::endl;
+    
     return 0;
 }
 
