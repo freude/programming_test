@@ -1,14 +1,12 @@
 //
-//  data_structures.cpp
+//  llist.cpp
 //  LL
 //
-//  Created by freude on 5/31/16.
+//  Created by freude on 6/1/16.
 //  Copyright © 2016 freude. All rights reserved.
 //
 
-#include "data_structures.hpp"
-#include <iostream>
-
+#include "llist.hpp"
 
 void LList::AddToHead(int a){
     Node* p = new Node;
@@ -66,31 +64,3 @@ bool LList::IsEmpty(void){
         return false;
     }
 }
-
-void Stack::push(float el){
-    size++;
-    pool[size-1] = el;
-}
-
-float Stack::pull(void){
-    size--;
-    return pool[size];
-}
-
-bool Stack::isEmpty(void){
-    if (size == 0){
-        return true;
-    }
-    else{
-        return false;
-    }
-}
-
-void Stack::show_elements(void){
-    
-    for (int j=0;j<size;j++){
-        std::cout << pool[j] << std::endl;
-    }
-
-}
-

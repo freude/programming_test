@@ -1,15 +1,16 @@
 //
-//  data_structures.hpp
+//  llist.hpp
 //  LL
 //
-//  Created by freude on 5/31/16.
+//  Created by freude on 6/1/16.
 //  Copyright © 2016 freude. All rights reserved.
 //
 
-#ifndef data_structures_hpp
-#define data_structures_hpp
+#ifndef llist_hpp
+#define llist_hpp
 
 #include <stdio.h>
+
 
 class Node{
 public:
@@ -42,21 +43,4 @@ public:
     Node *head, *tail;
 };
 
-class Stack{
-    float *pool;
-public:
-    Stack(){
-        size=0;
-        pool=new float[1000];
-    };
-    ~Stack(){
-        delete pool;
-    };
-    void push(float element);
-    float pull(void);
-    bool isEmpty(void);    
-    int size;
-    void show_elements(void);
-};
-
-#endif /* data_structures_hpp */
+#endif /* llist_hpp */
