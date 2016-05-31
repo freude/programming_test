@@ -42,5 +42,21 @@ public:
     Node *head, *tail;
 };
 
+class Stack{
+    float *pool;
+public:
+    Stack(){
+        size=0;
+        pool=new float[1000];
+    };
+    ~Stack(){
+        delete pool;
+    };
+    void push(float element);
+    float pull(void);
+    bool isEmpty(void);    
+    int size;
+    void show_elements(void);
+};
 
 #endif /* data_structures_hpp */

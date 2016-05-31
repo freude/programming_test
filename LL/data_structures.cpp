@@ -7,6 +7,8 @@
 //
 
 #include "data_structures.hpp"
+#include <iostream>
+
 
 void LList::AddToHead(int a){
     Node* p = new Node;
@@ -64,3 +66,32 @@ bool LList::IsEmpty(void){
         return false;
     }
 }
+
+void Stack::push(float el){
+    size++;
+    pool[size-1] = el;
+}
+
+float Stack::pull(void){
+    size--;
+    return pool[size];
+}
+
+bool Stack::isEmpty(void){
+    if (size == 0){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+void Stack::show_elements(void){
+    
+    std::cout << "Здравствуй Ира. Это перечень элементов в стеке:" << std::endl;
+    for (int j=0;j<size;j++){
+        std::cout << pool[j] << std::endl;
+    }
+
+}
+
