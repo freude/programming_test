@@ -88,7 +88,6 @@ bool Stack::isEmpty(void){
 
 void Stack::show_elements(void){
     
-    std::cout << "Здравствуй Ира. Это перечень элементов в стеке:" << std::endl;
     for (int j=0;j<size;j++){
         std::cout << pool[j] << std::endl;
     }
