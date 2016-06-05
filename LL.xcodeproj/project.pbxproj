@@ -10,6 +10,8 @@
 		05F949101CFD8EA100DA8C58 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05F9490F1CFD8EA100DA8C58 /* main.cpp */; };
 		05F9491B1CFE3D4200DA8C58 /* stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05F949191CFE3D4200DA8C58 /* stack.cpp */; };
 		05F9491E1CFE3D5300DA8C58 /* llist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05F9491C1CFE3D5300DA8C58 /* llist.cpp */; };
+		05F949211CFE3E5B00DA8C58 /* heap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05F9491F1CFE3E5B00DA8C58 /* heap.cpp */; };
+		05F949241CFE3E7000DA8C58 /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05F949221CFE3E7000DA8C58 /* graph.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		05F9491A1CFE3D4200DA8C58 /* stack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stack.hpp; sourceTree = "<group>"; };
 		05F9491C1CFE3D5300DA8C58 /* llist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = llist.cpp; sourceTree = "<group>"; };
 		05F9491D1CFE3D5300DA8C58 /* llist.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = llist.hpp; sourceTree = "<group>"; };
+		05F9491F1CFE3E5B00DA8C58 /* heap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heap.cpp; sourceTree = "<group>"; };
+		05F949201CFE3E5B00DA8C58 /* heap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = heap.hpp; sourceTree = "<group>"; };
+		05F949221CFE3E7000DA8C58 /* graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graph.cpp; sourceTree = "<group>"; };
+		05F949231CFE3E7000DA8C58 /* graph.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = graph.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,10 @@
 				05F9491A1CFE3D4200DA8C58 /* stack.hpp */,
 				05F9491C1CFE3D5300DA8C58 /* llist.cpp */,
 				05F9491D1CFE3D5300DA8C58 /* llist.hpp */,
+				05F9491F1CFE3E5B00DA8C58 /* heap.cpp */,
+				05F949201CFE3E5B00DA8C58 /* heap.hpp */,
+				05F949221CFE3E7000DA8C58 /* graph.cpp */,
+				05F949231CFE3E7000DA8C58 /* graph.hpp */,
 			);
 			path = LL;
 			sourceTree = "<group>";
@@ -130,7 +140,9 @@
 			files = (
 				05F949101CFD8EA100DA8C58 /* main.cpp in Sources */,
 				05F9491B1CFE3D4200DA8C58 /* stack.cpp in Sources */,
+				05F949241CFE3E7000DA8C58 /* graph.cpp in Sources */,
 				05F9491E1CFE3D5300DA8C58 /* llist.cpp in Sources */,
+				05F949211CFE3E5B00DA8C58 /* heap.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
